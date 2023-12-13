@@ -278,8 +278,8 @@ elseif strcmp(surveydate,'2023-04b')
     badS_inds = [91:94 96:102 104:105 109 111:113 131:136 140:141 155];
 
 elseif strcmp(surveydate,'2023-05')
-    filename = 'example_data/211745_20230516_1601.rsk';
-    gps_path = 'example_data/EFE680A8-CC8D-4C15-9979-83F65FB6BF8A_20230516_0902.gpx';
+    filename = '/Users/rubyyee/Documents/MSc/BB_circulation/basin_survey/2023_05/Level0/211745_20230516_1601.rsk';
+    gps_path = '/Users/rubyyee/Documents/MSc/BB_circulation/basin_survey/2023_05/GPS/EFE680A8-CC8D-4C15-9979-83F65FB6BF8A_20230516_0902.gpx';
     tau = 0.1;
     kvalue = 1;
     useO2 = 1;
